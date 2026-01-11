@@ -6,9 +6,5 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
-  },
-
-  redirects: {
-    "/": "https://2024.studentskyvelehrad.cz",
-  },
+  }
 });
